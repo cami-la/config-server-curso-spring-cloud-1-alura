@@ -1,0 +1,12 @@
+
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cami-la/microservice-repo2
+          search-paths: fornecedor
+          default-label: main
